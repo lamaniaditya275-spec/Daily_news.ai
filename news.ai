@@ -99,7 +99,7 @@ function sendDailyAIBrief() {
     body += `   ${item.summary}\n`;
     body += `   Why: ${item.why_it_matters}\n`;
     body += `   Source: ${item.source}\n`;
-    body += `   Link:${item.link}\n\n`
+    body += `   Link: ${item.link}\n\n`
   });
 
   GmailApp.sendEmail(
